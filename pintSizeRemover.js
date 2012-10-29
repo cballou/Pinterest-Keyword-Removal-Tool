@@ -26,6 +26,7 @@
             if (desc.indexOf(skip[i]) > -1) {
                 _log('"' + skip[i] + '" keyword found. Removing pin "' + desc + '"');
 	        $this.remove();
+                break;
             }
         } 
     }

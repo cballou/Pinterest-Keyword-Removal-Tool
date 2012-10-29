@@ -20,14 +20,15 @@
      * blacklist keywords to see if the pin should be removed.
      */
     function removalTest($n) {
-        var desc = $n.find('.description').text();
-        console.log(desc);
+        var desc = $n.find('.description').text().toLowerCase();
+	_log('Triggering removal test on: ' + desc);
         for (i in skip) {
             if (desc.indexOf(skip[i]) > -1) {
-	        console.log('Removing:');
-	        console.log(desc);
+	        _log('== Removing ==');
 	        $n.remove();
             }
         } 
     }
+
+    function _log(msg) { if (window.console) console.log(msg); }
 })();

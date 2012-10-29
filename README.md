@@ -1,5 +1,4 @@
-Pinterest-Keyword-Removal-Tool
-==============================
+# Pinterest Keyword Removal Tool (Bookmarklet) #
 
 Your wife complains her Pinterest feed is full of crap she has no interest in seeing like weight loss and fingernail painting. 
 

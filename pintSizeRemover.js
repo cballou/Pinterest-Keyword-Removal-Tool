@@ -3,7 +3,7 @@
 
     $(document).bind('DOMNodeInserted', function(e) {
         var $n = $(e.target);
-        if ($n.hasClass('pin')) {
+        if ($n.hasClass('pin') && !$n.hasClass('.pintSized')) {
             removalTest($n);
         }
     });
@@ -11,7 +11,7 @@
     /**
      * Run on load.
      */
-    $('.pin').each(function() {
+    $('.pin:not(.pintSized)').each(function() {
         removalTest($(this));
     });
 
@@ -22,6 +22,8 @@
     function removalTest($n) {
         var desc = $n.find('.description').text().toLowerCase();
 	_log('Triggering removal test on: ' + desc);
+
+	$n.addClass('pintSized');
         for (i in skip) {
             if (desc.indexOf(skip[i]) > -1) {
 	        _log('== Removing ==');

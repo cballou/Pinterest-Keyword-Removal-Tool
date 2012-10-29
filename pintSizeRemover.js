@@ -1,5 +1,5 @@
 (function() {
-    var skip = ['weight', 'fat loss', 'workout', 'flat abs', 'nails', 'manicure'];
+    var skip = ['weight', 'fat loss', 'workout', 'work out', 'burn calories', 'flat abs', 'nails', 'manicure'];
 
     $(document).bind('DOMNodeInserted', function(e) {
         var $n = $(e.target);

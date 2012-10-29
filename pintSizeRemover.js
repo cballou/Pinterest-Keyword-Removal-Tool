@@ -1,5 +1,5 @@
 (function() {
-    var skip = ['weight', 'fat loss', 'workout', 'work out', 'burn calories', 'flat abs', 'nails', 'manicure'];
+    var skip = ['weight', 'fat loss', 'workout', 'work out', 'burn calories', 'flat abs', 'nails', 'manicure', 'fitness'];
 
     $(document).bind('DOMNodeInserted', function(e) {
         var $n = $(e.target);
@@ -20,12 +20,11 @@
     function removalTest() {
         var $this = $(this),
             desc = $this.find('.description').text().toLowerCase();
-	_log('Triggering removal test on: ' + desc);
 
 	$this.addClass('pintSized');
         for (i in skip) {
             if (desc.indexOf(skip[i]) > -1) {
-	        _log('== Removing ==');
+                _log('"' + skip[i] + '" keyword found. Removing pin "' + desc + '");
 	        $this.remove();
             }
         } 

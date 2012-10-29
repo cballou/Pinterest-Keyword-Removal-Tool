@@ -3,6 +3,7 @@
 
     $(document).bind('DOMNodeInserted', function(e) {
         var $n = $(e.target);
+        _log($n);
         if ($n.hasClass('pin') && !$n.hasClass('.pintSized')) {
             removalTest($n);
         }

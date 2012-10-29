@@ -34,7 +34,7 @@
             desc = $this.find('.description').text().toLowerCase();
 
 	$this.addClass('pintSized');
-        $this.find('.PinHolder .actions').append('<a href="Button Button11 WhiteButton ContrastButton eatPint">Hide Keyword(s)</a>');
+        $this.find('.PinHolder .actions').append('<a href="#" class="Button Button11 WhiteButton ContrastButton eatPint">Hide Keyword(s)</a>');
         for (i in skip) {
             if (desc.indexOf(skip[i]) > -1) {
                 _log('"' + skip[i] + '" keyword found. Removing pin "' + desc + '"');

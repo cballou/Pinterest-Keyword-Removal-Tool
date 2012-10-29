@@ -1,7 +1,12 @@
 Pinterest-Keyword-Removal-Tool
 ==============================
 
-Your wife complain's her is full of crap she doesn't care to see, like weight loss and fingernail painting. What do you do as a developer? Build something to fix the problem.
+Your wife complains her Pinterest feed is full of crap she has no interest in seeing like weight loss and fingernail painting. 
+
+What do you do as a developer? Build something to fix the problem.
+
+This tool simply allows you to specify a set of keywords which will be used as a blacklist for all pin descriptions. It uses
+the DOMNodeInserted event to intercept pins as they are inserted into the DOM. 
 
 ## Currently Alpha ##
 

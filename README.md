@@ -7,9 +7,11 @@ What do you do as a developer? Build something to fix the problem.
 This tool simply allows you to specify a set of keywords which will be used as a blacklist for all pin descriptions. It uses
 the DOMNodeInserted event to intercept pins as they are inserted into the DOM. 
 
-## Currently Alpha ##
+## Usage ##
 
-This project is currently not tested and is more of a proof of concept.
+This project is not actively tested and was a proof of concept.
+
+You'll want to fork the project into your own github repository and update the `var skip` array in `pintSizeRemover.js` with your own list of keywords you'd like to skip.
 
 ## Usage ##
 

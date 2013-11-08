@@ -7,7 +7,7 @@ What do you do as a developer? Build something to fix the problem.
 This tool simply allows you to specify a set of keywords which will be used as a blacklist for all pin descriptions. It uses
 the DOMNodeInserted event to intercept pins as they are inserted into the DOM. 
 
-## Usage ##
+## Setup ##
 
 This project is not actively tested and was a proof of concept.
 

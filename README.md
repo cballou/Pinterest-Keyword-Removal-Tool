@@ -13,6 +13,22 @@ This project is not actively tested and was a proof of concept.
 
 You'll want to fork the project into your own github repository and update the `var skip` array in `pintSizeRemover.js` with your own list of keywords you'd like to skip.
 
+The default skip keywords are as follows:
+
+```js
+var skip = [
+  'weight', 
+  'fat loss', 
+  'workout', 
+  'work out', 
+  'burn calories', 
+  'flat abs', 
+  'nails', 
+  'manicure', 
+  'fitness'
+];
+```
+
 ## Usage ##
 
 Github won't allow the creation of bookmarklet anchors in a README, so you'll need to

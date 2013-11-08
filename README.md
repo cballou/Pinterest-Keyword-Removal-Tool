@@ -1,6 +1,6 @@
 # About the Pinterest Keyword Removal Tool Bookmarklet #
 
-Your wife complains her Pinterest feed is full of crap she has no interest in seeing like weight loss and fingernail painting. 
+Your wife complains her Pinterest feed is full of crap she has no interest in seeing things like weight loss and fingernail painting. 
 
 What do you do as a developer? Build something to fix the problem.
 

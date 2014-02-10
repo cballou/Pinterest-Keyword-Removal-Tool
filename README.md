@@ -37,3 +37,7 @@ create a new bookmark on your bar and add the following as the url:
 ```bash
 javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/cballou/Pinterest-Keyword-Removal-Tool/master/pintSizeRemover.js';})();
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cballou/pinterest-keyword-removal-tool/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

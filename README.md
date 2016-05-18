@@ -1,8 +1,8 @@
 # About the Pinterest Keyword Removal Tool Bookmarklet #
 
-#### So What's this for? ####
+#### So what's this for? ####
 
-Your Pinterest feed is full of crap you want to hide all things mentioning "weight loss" or "finger painting".
+This bookmarklet is useful if your Pinterest feed is full of crap and you want to hide all pins mentioning keywords such as "weight loss" or "finger painting".
 
 #### So how does it work? ####
 
